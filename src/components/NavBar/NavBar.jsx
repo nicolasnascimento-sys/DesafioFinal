@@ -7,8 +7,7 @@ import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 import Styles from "./Nav.module.scss"
 import Logo from "../../assets/logo.png";
-import FotoDoPerfil from "../../assets/Perfil.WEBP";
-
+import FotoDoPerfil from "../../assets/Perfil.jpeg"
 
 
 function NavBar() {
@@ -32,7 +31,7 @@ function NavBar() {
         </ul>
         
         <Link to="/perfil">
-          <img src={FotoDoPerfil} alt="Foto do perfil" />
+        <img className={Styles.fotoDoPerfil} src={FotoDoPerfil} alt="Foto do perfil" />
         </Link>
       </nav>
 

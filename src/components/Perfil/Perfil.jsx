@@ -1,5 +1,5 @@
 import styles from "./Perfil.module.scss";
-import ImgPerfil from "../../assets/perfil.WEBP"
+import ImgPerfil from "../../assets/perfil.jpeg"
 function Perfil() {
   return (
     <section className={styles.containerTelaPerfil}>
@@ -14,9 +14,9 @@ function Perfil() {
             novas oportunidades para ajudar.
           </p>
           <address>
-            <p> Rio de Janeiro, RJ</p>
+            <p> Rio de Janeiro</p>
             <p>nicolasnascimentorodrigues26@gmail.com</p>
-            <p> Membro desde outubro de 2025</p>
+             <p> Membro desde outubro de 2025</p>
           </address>
           <ul className={styles.listaInteresses}>
             <li>Educação</li>
